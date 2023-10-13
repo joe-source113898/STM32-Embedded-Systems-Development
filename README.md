@@ -1,4 +1,4 @@
-**STM32G0B1 CasioCAN Project**
+**Embedded Systems Development Project - CasioCAN**
 
 ## Table of Contents
 1. [Introduction](#introduction)
