@@ -1,33 +1,42 @@
-This is the title {#mainpage}
-============
+**STM32G0B1 CAN Message Handler and LCD Data Displayer**
 
-This a subtitle
--------------
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Hardware Requirements](#hardware-requirements)
+4. [Software Requirements](#software-requirements)
+5. [Getting Started](#getting-started)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Acknowledgments](#acknowledgments)
 
-Description with **bold text** and *cursive*
+## Introduction
 
-- bullets
-- bullets
+This repository contains the source code and documentation for an embedded system designed to handle CAN messages using the STM32G0B1 microcontroller and display related data on an LCD.
 
-1. num bullets
-2. num bullets
+## Features
 
+- **CAN Message Handling:** Efficiently processes and filters incoming CAN messages.
+- **LCD Display Integration:** Displays relevant CAN message data on an LCD in real-time.
+- **Error Handling:** Provides mechanisms to handle and report any CAN or LCD related errors.
+- **Scalability:** Modular design allows for easy integration with other systems or additional features.
 
-> This is just a nice quote like the ones you can find in social media
+## Hardware Requirements
 
-This is how we can insert some code snippets
+- STM32G0B1 Microcontroller board
+- CAN transceiver module (compatible with STM32G0B1)
+- LCD display (compatible with STM32G0B1)
+- Jumper wires and breadboard (for prototyping)
 
-```C
-void function( void )
-{
+## Software Requirements
 
-}
-```
+- STM32CubeIDE (or similar)
+- STM32 HAL libraries
+- Any terminal software for debugging purposes (optional)
 
-Some images can also be inserted 
+## Getting Started
 
-![modular](https://media-exp1.licdn.com/dms/image/C4E0BAQF8Mlpq54uB3A/company-logo_200_200/0/1632781574324?e=1669248000&v=beta&t=atxklhEXRm8FXePXyjnOV7z83zC7qdryBUWngOacWWQ)
-
-And links
-
-For more visit this nice [cheat sheet](https://www.markdownguide.org/cheat-sheet/)
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/joe-source113898/STM32-Embedded-Systems-Development.git
