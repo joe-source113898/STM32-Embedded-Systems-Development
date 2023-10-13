@@ -1,4 +1,4 @@
-**STM32G0B1 CAN Message Handler and LCD Data Displayer**
+**STM32G0B1 CasioCAN Project**
 
 ## Table of Contents
 1. [Introduction](#introduction)
