@@ -1,0 +1,9 @@
+:project:
+  :build_root: Build/ceedling/
+  :release_build: TRUE
+
+:paths:
+  :test:
+    - test/** # directory where the unit testing are
+  :source:
+    - app/** # directory where the functions to test are

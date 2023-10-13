@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "Debug (OpenOCD)",
+            "servertype": "openocd",
+            "interface": "swd",
+            "cwd": "${workspaceRoot}",
+            "runToEntryPoint": "main",
+            "executable": "./Build/temp.elf",
+            "device": "STM32G0B1RE",
+            "configFiles": [
+                "board/st_nucleo_g0.cfg"
+            ],
+            "svdFile": "${workspaceRoot}/STM32G0B1.svd",
+            "serverpath": "/usr/bin/openocd",
+            "armToolchainPath": "/usr/bin",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

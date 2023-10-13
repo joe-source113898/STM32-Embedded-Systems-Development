@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stm32g0xx_hal.h": "c",
+        "stdint.h": "c",
+        "stm32g0xx.h": "c",
+        "app_spi_lcd.h": "c",
+        "hel_lcd.h": "c",
+        "app_display.h": "c"
+    }
+}
