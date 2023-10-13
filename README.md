@@ -27,16 +27,44 @@ This repository contains the source code and documentation for an embedded syste
 - STM32G0B1 Microcontroller board
 - CAN transceiver module (compatible with STM32G0B1)
 - LCD display (compatible with STM32G0B1)
-- Jumper wires and breadboard (for prototyping)
 
 ## Software Requirements
 
-- STM32CubeIDE (or similar)
+- Visual Studio Code
 - STM32 HAL libraries
-- Any terminal software for debugging purposes (optional)
+- Any terminal software for debugging purposes (GDB)
 
 ## Getting Started
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/joe-source113898/STM32-Embedded-Systems-Development.git
+
+2. **Set Up the Hardware:** Connect the STM32G0B1 board, CAN transceiver, and LCD as per the schematic provided in the docs folder.
+   
+3. **Install Required Software:** Ensure you have the Visual Studio Code and necessary libraries installed.
+
+4. **Open the Project:** Import the project into Visual Studio Code.
+   
+5. **Compile & Flash:** Build the project and flash it onto the STM32G0B1 board.
+
+## Usage
+After flashing the firmware:
+
+1. Power on the system.
+
+2. Send CAN messages to the STM32G0B1 board. The board will process the messages and display relevant data on the LCD.
+
+3. Monitor the LCD for the displayed data.
+
+For detailed usage and configuration instructions, please refer to the user manual in the ```docs``` folder.
+
+## Contributing
+Contributions are welcome! Please read our ```CONTRIBUTING.md``` for details on how to contribute, and the process for submitting pull requests.
+
+## License
+This project is licensed under the MIT License - see the ```LICENSE.md``` file for details.
+
+## Acknowledgments
+Thanks to the Diego Perez and Modular MX for their valuable resources and support.
+Shout out to all the contributors who have helped improve this project.
