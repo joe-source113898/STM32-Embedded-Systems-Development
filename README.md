@@ -64,7 +64,3 @@ Contributions are welcome! Please read our ```CONTRIBUTING.md``` for details on 
 
 ## License
 This project is licensed under the MIT License - see the ```LICENSE.md``` file for details.
-
-## Acknowledgments
-Thanks to Diego Perez and Modular MX for their valuable resources and support.
-Shout out to all the contributors who have helped improve this project.
