@@ -61,6 +61,3 @@ For detailed usage and configuration instructions, please refer to the user manu
 
 ## Contributing
 Contributions are welcome! Please read our ```CONTRIBUTING.md``` for details on how to contribute, and the process for submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the ```LICENSE.md``` file for details.
