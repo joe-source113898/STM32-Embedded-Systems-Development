@@ -60,4 +60,4 @@ After flashing the firmware:
 For detailed usage and configuration instructions, please refer to the user manual in the ```docs``` folder.
 
 ## Contributing
-Contributions are welcome! Please read our ```CONTRIBUTING.md``` for details on how to contribute, and the process for submitting pull requests.
+Contributions are welcome!
